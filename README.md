@@ -10,8 +10,11 @@ Sentiment analysis is a key application in Natural Language Processing (NLP) tha
 **Accuracy:** 84%
 
 **Dataset:** https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
 **Preprocessing:** Tokenization, stop word removal, stemming/lemmatization (optional)
+
 **Evaluation Metrics:** Accuracy, Precision, Recall, F1 Score
+
 **Tools/Libraries:**
 Python
 Scikit-learn
@@ -25,13 +28,18 @@ The dataset contains movie reviews labeled as either positive or negative. Each 
 Before applying the Naive Bayes classifier, the raw text data needs to be preprocessed:
 
 Tokenization: Splitting the text into individual words or tokens.
+
 Stop word removal: Removing common words like "and", "is", "the" that do not contribute much to sentiment analysis.
+
 Stemming/Lemmatization (optional): Reducing words to their root forms.
+
 Vectorization: Converting text into a numerical format using techniques like TF-IDF or Count Vectorization.
+
 **2. Model Training**
 The Naive Bayes algorithm is applied after vectorizing the text data.
 The data is split into training and testing sets (e.g., 80% training, 20% testing).
 The model learns the relationship between words and sentiment from the training set.
+
 **3. Model Evaluation**
 The model's performance is measured using metrics such as accuracy (achieved 84%), precision, recall, and F1 score.
 Accuracy refers to the percentage of reviews that are correctly classified as either positive or negative.
