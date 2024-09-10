@@ -1,16 +1,16 @@
 # Sentimental_Analysis_Movie_reviews
-**Project Overview**
+# Project Overview
 This project focuses on performing Sentiment Analysis on a dataset of movie reviews using the Naive Bayes algorithm. The goal is to classify each review as either positive or negative based on its content, and the model achieves an accuracy of 84%.
 
 Sentiment analysis is a key application in Natural Language Processing (NLP) that helps to extract emotions, opinions, and sentiments from text. In this project, we use machine learning to determine whether movie reviews have a positive or negative sentiment.
 
-**Features**
-Machine Learning Algorithm: Naive Bayes (Multinomial or Bernoulli)
-Accuracy: 84%
-Dataset: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
-Preprocessing: Tokenization, stop word removal, stemming/lemmatization (optional)
-Evaluation Metrics: Accuracy, Precision, Recall, F1 Score
-Tools/Libraries:
+# Features
+**Machine Learning Algorithm:** Naive Bayes (Multinomial or Bernoulli)
+**Accuracy:** 84%
+**Dataset:** https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+**Preprocessing:** Tokenization, stop word removal, stemming/lemmatization (optional)
+**Evaluation Metrics:** Accuracy, Precision, Recall, F1 Score
+**Tools/Libraries:**
 Python
 Scikit-learn
 NLTK (Natural Language Toolkit) or similar for text preprocessing
