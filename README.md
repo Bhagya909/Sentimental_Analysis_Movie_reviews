@@ -6,7 +6,9 @@ Sentiment analysis is a key application in Natural Language Processing (NLP) tha
 
 # Features
 **Machine Learning Algorithm:** Naive Bayes (Multinomial or Bernoulli)
+
 **Accuracy:** 84%
+
 **Dataset:** https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 **Preprocessing:** Tokenization, stop word removal, stemming/lemmatization (optional)
 **Evaluation Metrics:** Accuracy, Precision, Recall, F1 Score
